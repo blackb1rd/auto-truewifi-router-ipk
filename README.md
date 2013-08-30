@@ -1,7 +1,7 @@
 Auto-truewifi-router-ipkg
 =========================
 
-This package contains script auto connect truewifi
+This package contains script auto connect truewifi for Openwrt
 
 How to install
 --------------
