@@ -4,23 +4,22 @@ Auto-truewifi-router-ipkg
 This package contains script auto connect truewifi
 
 How to install
-==============
+--------------
 1. Do opkg update first.
 ```shell
 opkg update
 ```
 
 2. select you version
-
-kamikaze
+* kamikaze
 ```shell
 opkg install http://auto-truewifi-router-ipkg.herokuapp.com/packages/kamikaze/truewifi_1-1_all.ipk
 ```
-backfire
+* backfire
 ```shell
 opkg install http://auto-truewifi-router-ipkg.herokuapp.com/packages/backfire/truewifi_1-1_all.ipk
 ```
-attitude_adjustment
+* attitude_adjustment
 ```shell
 opkg install http://auto-truewifi-router-ipkg.herokuapp.com/packages/attitude_adjustment/truewifi_1-1_all.ipk
 ```
