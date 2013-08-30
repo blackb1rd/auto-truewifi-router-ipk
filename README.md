@@ -10,7 +10,7 @@ How to install
 opkg update
 ```
 
-2. select you version
+2. Select you version.
 
    **kamikaze**
    ```shell
@@ -25,14 +25,14 @@ opkg update
    opkg install http://auto-truewifi-router-ipkg.herokuapp.com/packages/attitude_adjustment/truewifi_1-1_all.ipk
    ```
 
-3. insert the username and password in file truecond
+3. Insert the username and password in file truecond.
 ```shell
 vi /usr/bin/truecond
 ```
 
-4. finally reboot router
+4. Finally reboot router.
 ```shell
 reboot
 ```
 
-have fun :)
+**have fun :)**
