@@ -11,6 +11,7 @@ opkg update
 ```
 
 2. select you version
+
    **kamikaze**
    ```shell
    opkg install http://auto-truewifi-router-ipkg.herokuapp.com/packages/kamikaze/truewifi_1-1_all.ipk
