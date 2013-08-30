@@ -29,8 +29,9 @@ opkg update
 ```shell
 vi /usr/bin/truecond
 ```
+4. Connect TRUEWIFI.
 
-4. Finally reboot router.
+5. Finally reboot router.
 ```shell
 reboot
 ```
