@@ -5,12 +5,14 @@ This package contains script auto connect truewifi for Openwrt
 
 How to install
 --------------
-1. Do opkg update first.
+1. Connect your internet.
+
+2. Do opkg update first.
 ```shell
 opkg update
 ```
 
-2. Select you version.
+3. Select you version.
 
    **kamikaze**
    ```shell
@@ -25,13 +27,13 @@ opkg update
    opkg install http://auto-truewifi-router-ipkg.herokuapp.com/packages/attitude_adjustment/truewifi_1-1_all.ipk
    ```
 
-3. Insert the username and password in file truecond.
+4. Insert the username and password in file truecond.
 ```shell
 vi /usr/bin/truecond
 ```
-4. Connect TRUEWIFI.
+5. Connect TRUEWIFI.
 
-5. Finally reboot router.
+6. Finally reboot router.
 ```shell
 reboot
 ```
