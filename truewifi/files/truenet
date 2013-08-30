@@ -1,0 +1,12 @@
+#!/bin/sh /etc/rc.common
+
+START=99
+
+start() {
+    /usr/bin/truecond > /dev/null 2>&1 &
+}
+
+stop() {
+    killall -9 truecond
+    killall -9 sleep
+}

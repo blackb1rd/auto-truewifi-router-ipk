@@ -1,0 +1,72 @@
+Package: libcurl
+Version: 7.23.1-1
+Depends: libopenssl, zlib
+Provides: 
+Source: feeds/packages/libs/curl
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: brcm-2.4
+Installed-Size: 135668
+Filename: libcurl_7.23.1-1_brcm-2.4.ipk
+Size: 136181
+MD5Sum: e8053aaaa4f5a39d825e200b461ae624
+Description:  A client-side URL transfer library
+
+Package: libopenssl
+Version: 0.9.8x-1
+Depends: zlib
+Provides: 
+Source: package/openssl
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: brcm-2.4
+Installed-Size: 507066
+Filename: libopenssl_0.9.8x-1_brcm-2.4.ipk
+Size: 499043
+MD5Sum: 4e8bcfd827c9563925e6ab1d3f3a63ce
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: truewifi
+Version: 1-1
+Depends: libcurl, libopenssl
+Provides: 
+Source: package/truewifi
+Section: opt
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: s4m3l0 <blackb1rd@riseup.net>
+Architecture: all
+Installed-Size: 1020
+Filename: truewifi_1-1_all.ipk
+Size: 1630
+MD5Sum: 86bb50a82ee9c717d01f03ddbf64229d
+Description:  Script auto connect @TRUEWIFI
+
+Package: zlib
+Version: 1.2.3-5
+Depends: 
+Provides: 
+Source: package/zlib
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: brcm-2.4
+Installed-Size: 34306
+Filename: zlib_1.2.3-5_brcm-2.4.ipk
+Size: 34996
+MD5Sum: e310a633e89d824f4cc08537f78ab4e9
+Description:  Library implementing the deflate compression method
+
