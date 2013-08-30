@@ -11,18 +11,18 @@ opkg update
 ```
 
 2. select you version
-* kamikaze
-```shell
-opkg install http://auto-truewifi-router-ipkg.herokuapp.com/packages/kamikaze/truewifi_1-1_all.ipk
-```
-* backfire
-```shell
-opkg install http://auto-truewifi-router-ipkg.herokuapp.com/packages/backfire/truewifi_1-1_all.ipk
-```
-* attitude_adjustment
-```shell
-opkg install http://auto-truewifi-router-ipkg.herokuapp.com/packages/attitude_adjustment/truewifi_1-1_all.ipk
-```
+   **kamikaze**
+   ```shell
+   opkg install http://auto-truewifi-router-ipkg.herokuapp.com/packages/kamikaze/truewifi_1-1_all.ipk
+   ```
+   **backfire**
+   ```shell
+   opkg install http://auto-truewifi-router-ipkg.herokuapp.com/packages/backfire/truewifi_1-1_all.ipk
+   ```
+   **attitude_adjustment**
+   ```shell
+   opkg install http://auto-truewifi-router-ipkg.herokuapp.com/packages/attitude_adjustment/truewifi_1-1_all.ipk
+   ```
 
 3. insert the username and password in file truecond
 ```shell
