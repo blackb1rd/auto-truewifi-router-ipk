@@ -28,6 +28,8 @@ define Package/truewifi/install
 	$(INSTALL_BIN) ./files/truewifi $(1)/usr/bin/truewifi
 	$(INSTALL_DIR) $(1)/etc/init.d
 	$(INSTALL_BIN) ./files/trueinit $(1)/etc/init.d/truewifi
+	$(INSTALL_DIR) $(1)/etc/config
+	$(INSTALL_BIN) ./files/etc/config/truewifi $(1)/etc/config/truewifi
 endef
 
 $(eval $(call BuildPackage,truewifi))

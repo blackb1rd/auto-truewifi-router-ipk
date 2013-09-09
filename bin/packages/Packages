@@ -1,16 +1,14 @@
 Package: truewifi
 Version: 1-1
-Depends: libc, libcurl, libopenssl
+Depends: libcurl, libopenssl
 Provides: 
-Source: package/truewifi
+Source: feeds/luci/truewifi
 Section: opt
-Status: unknown ok not-installed
-Essential: no
 Priority: optional
 Maintainer: s4m3l0 <blackb1rd@riseup.net>
 Architecture: all
-Installed-Size: 1020
+Installed-Size: 27025
 Filename: truewifi_1-1_all.ipk
-Size: 1631
-MD5Sum: b573f7955c8d1ecd291db0a7d4c5862b
+Size: 1616
+MD5Sum: d8878cdbb18f6a5f393cce04cdcd2681
 Description:  Script auto connect @TRUEWIFI
