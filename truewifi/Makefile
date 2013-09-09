@@ -14,7 +14,7 @@ define Package/truewifi
 	CATEGORY:=Utilities
 	TITLE:=Script auto connect @TRUEWIFI
 	URL:=http://s4m3l0.exteen.com
-	DEPENDS:=+libcurl +libopenssl
+	DEPENDS:=+curl +libopenssl
 	PKGARCH:=all
 	MAINTAINER:=s4m3l0 <blackb1rd@riseup.net>
 endef
