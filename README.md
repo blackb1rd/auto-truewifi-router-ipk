@@ -27,9 +27,9 @@ opkg update
    opkg install http://auto-truewifi-router-ipkg.herokuapp.com/packages/attitude_adjustment/truewifi_1-1_all.ipk
    ```
 
-4. Insert the username and password in file truecond.
+4. Insert the username,password,time in file truewifi.
 ```shell
-vi /usr/bin/truecond
+vi /etc/config/truewifi
 ```
 5. Connect TRUEWIFI.
 
@@ -37,5 +37,6 @@ vi /usr/bin/truecond
 ```shell
 reboot
 ```
+Note: No have UCI.
 
 **have fun :)**

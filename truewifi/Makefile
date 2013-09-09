@@ -25,11 +25,9 @@ endef
 
 define Package/truewifi/install
 	$(INSTALL_DIR) $(1)/usr/bin
-	$(INSTALL_BIN) ./files/truecond $(1)/usr/bin/truecond
+	$(INSTALL_BIN) ./files/truewifi $(1)/usr/bin/truewifi
 	$(INSTALL_DIR) $(1)/etc/init.d
-	$(INSTALL_BIN) ./files/truenet $(1)/etc/init.d/truenet
-	$(INSTALL_DIR) $(1)/etc/rc.d
-	ln -sf /etc/init.d/truenet $(1)/etc/rc.d/S99truenet
+	$(INSTALL_BIN) ./files/trueinit $(1)/etc/init.d/truewifi
 endef
 
 $(eval $(call BuildPackage,truewifi))
