@@ -12,7 +12,7 @@ How to install
 opkg update
 ```
 
-3. Select you version.
+3. install package.
 
    ```shell
    opkg install http://auto-truewifi-router-ipkg.herokuapp.com/packages/truewifi_1-1_all.ipk
