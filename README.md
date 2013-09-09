@@ -8,9 +8,9 @@ How to install
 1. Connect your internet.
 
 2. Do opkg update first.
-```shell
-opkg update
-```
+   ```shell
+   opkg update
+   ```
 
 3. install package.
 
@@ -19,15 +19,15 @@ opkg update
    ```
 
 4. Insert the username,password,time in file truewifi.
-```shell
-vi /etc/config/truewifi
-```
+   ```shell
+   vi /etc/config/truewifi
+   ```
 5. Connect TRUEWIFI.
 
 6. Finally reboot router.
-```shell
-reboot
-```
+   ```shell
+   reboot
+   ```
 Note: No have UCI.
 
 **have fun :)**
