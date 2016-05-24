@@ -5,7 +5,7 @@ Provides:
 Source: feeds/luci/truewifi
 Section: opt
 Priority: optional
-Maintainer: s4m3l0 <blackb1rd@riseup.net>
+Maintainer: Prachya Saechua <blackb1rd@riseup.net>
 Architecture: all
 Installed-Size: 27025
 Filename: truewifi_1-1_all.ipk
